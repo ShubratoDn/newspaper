@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.sec-title{
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: rgba(128, 128, 128, 0.158);
+    padding: 5px 15px;
+    border-left: 7px solid #1682D5;
+    text-shadow: 0px 5px 5px gray;
+    margin-bottom: 10px;
+}
+
+.sidebar{
+    padding-left: 40px;
+    margin-bottom: 50px;
+}
+
+.sidebar ul li{
+    list-style-type: square;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.logo{
+    font-weight: bolder;
+}
+
+.ad .jumbotron{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Default News section */
+.section-img-news{
+    height: 300px;
+}
+
+.section-side-news{
+    margin-bottom: 25px;
+    font-size: 20px;
+    border-bottom: 1px silver solid;
+    padding-bottom: 5px;
+}
+
+.section-side-news a{
+    color: black;
+}
+
+.section-side-news a:hover{
+    color: #1682D5;
+}
+/* Default section News  ends */
+
+
+
+/* -------Header--------- */
+.brand{
+    position: relative;
+}
+
+
+.navbar-toggler{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+
+nav a{
+    margin: 0px 5px;
+    color: black;
+    font-size: 17px;
+    font-weight: bolder;
+    transition: .3s;
+}
+
+.navbar-collapse{
+    border: 1px solid rgba(34, 30, 30, 0.46);
+}
+
+.navbar-nav{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* breaking news */
+.breaking-news{
+    padding-top: 15px;
+    background-color: #1682d5;
+    color: rgba(252, 252, 252, 0.892);
+    font-size: 18px;
+}
+
+.update-left{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+marquee ul li {
+    margin-left: 60px;
+}
+
+/* breaking news Ends */
+
+/* -------Header Ends--------- */
+
+
+/* ------- Headline section starts--------- */
+
+.sNews{
+    color: black;
+}
+
+.main-news{
+    background-image: url('images/mainnews1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 49vh;
+    position: relative;
+}
+
+.main-news a{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.568);
+    padding: 5px 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-size: 20px;
+}
+
+/* ------- Headline section Ends--------- */
+
+/* Top trending section starts from here */
+.trend-news{
+    overflow: hidden;
+    padding: 0px;
+}
+
+.trend-news .card-body h6{
+    font-weight: bolder;
+}
+
+.trend-news .card-body p{
+    font-size: 15x;
+}
+
+.trend-news .card-body a{
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 2px 0;
+}
+
+.trend-news .card-body a:hover{
+    color: #1682D5;
+}
+
+/* Top trending section Ends */
+
+
+/* corona guide */
+
+.all-tips{width:160px;height:170px;display:inline-block;background:url('images/protect-corona-virus.png');}
+.tip-1{}
+.tip-2{background-position: -164px 0}
+.tip-3{background-position: -328px 0}
+.tip-4{background-position: -508px 0}
+.tip-5{background-position: -678px 0}
+.tip-6{background-position: -849px 0;height:165px;}
+
+/* corona guide ends */
+
+
+
+/* Footer edit starts */
+footer{
+    background-color: #000000;
+}
+
+.footer-logo{
+    background-color: #363D4D;
+}
+
+.footer-address p{
+    color: white;
+}
+
+
+.footer-link a{
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+    transition: .2s;
+    text-decoration: none;
+}
+
+.footer-link a:hover{
+    color: #1682D5;
+}
+/* Footer edit Ends */
+
+
+
+
+
+/* for small device */
+@media screen and (max-width: 400px){
+
+    /* navbar */
+    .logo{
+        font-size: 15px;
+        margin-left: -20%;
+    }
+
+    .navbar-toggler{
+        font-size: 15px;
+    }
+    /* navbar */
+}
