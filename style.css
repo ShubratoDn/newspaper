@@ -190,6 +190,7 @@ marquee ul li {
 /* Footer edit starts */
 footer{
     background-color: #000000;
+    width: 100vw;
 }
 
 .footer-logo{
